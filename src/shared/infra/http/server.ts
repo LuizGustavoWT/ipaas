@@ -16,7 +16,7 @@ server.get('/', async (request, reply) => {
 
     var url: string = "https://brasilapi.com.br/api/cep/v2/{cep}"
 
-    url = url.replace(model[0].template, "01001000")
+    url = url.replace(model[0].template, "85905000")
     try {
         var response = await fetch(url, {
             method: 'GET',
